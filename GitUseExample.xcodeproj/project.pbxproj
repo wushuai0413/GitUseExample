@@ -14,6 +14,7 @@
 		1CE133C41FF37B9000CF728C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE133C21FF37B9000CF728C /* LaunchScreen.storyboard */; };
 		1CE133C71FF37B9000CF728C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE133C61FF37B9000CF728C /* main.m */; };
 		1CE133CF1FF37D4800CF728C /* NSObject+MapForItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE133CE1FF37D4800CF728C /* NSObject+MapForItinerary.m */; };
+		1CE133D21FF3840600CF728C /* NSArray+JsonModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE133D11FF3840600CF728C /* NSArray+JsonModelArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		1CE133C61FF37B9000CF728C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1CE133CD1FF37D4700CF728C /* NSObject+MapForItinerary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MapForItinerary.h"; sourceTree = "<group>"; };
 		1CE133CE1FF37D4800CF728C /* NSObject+MapForItinerary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MapForItinerary.m"; sourceTree = "<group>"; };
+		1CE133D01FF3840600CF728C /* NSArray+JsonModelArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+JsonModelArray.h"; sourceTree = "<group>"; };
+		1CE133D11FF3840600CF728C /* NSArray+JsonModelArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JsonModelArray.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				1CE133BB1FF37B9000CF728C /* ViewController.m */,
 				1CE133CD1FF37D4700CF728C /* NSObject+MapForItinerary.h */,
 				1CE133CE1FF37D4800CF728C /* NSObject+MapForItinerary.m */,
+				1CE133D01FF3840600CF728C /* NSArray+JsonModelArray.h */,
+				1CE133D11FF3840600CF728C /* NSArray+JsonModelArray.m */,
 				1CE133BD1FF37B9000CF728C /* Main.storyboard */,
 				1CE133C01FF37B9000CF728C /* Assets.xcassets */,
 				1CE133C21FF37B9000CF728C /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 				1CE133BC1FF37B9000CF728C /* ViewController.m in Sources */,
 				1CE133C71FF37B9000CF728C /* main.m in Sources */,
 				1CE133B91FF37B9000CF728C /* AppDelegate.m in Sources */,
+				1CE133D21FF3840600CF728C /* NSArray+JsonModelArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
