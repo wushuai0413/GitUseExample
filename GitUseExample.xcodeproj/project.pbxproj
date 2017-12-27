@@ -13,6 +13,7 @@
 		1CE133C11FF37B9000CF728C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE133C01FF37B9000CF728C /* Assets.xcassets */; };
 		1CE133C41FF37B9000CF728C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE133C21FF37B9000CF728C /* LaunchScreen.storyboard */; };
 		1CE133C71FF37B9000CF728C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE133C61FF37B9000CF728C /* main.m */; };
+		1CE133CF1FF37D4800CF728C /* NSObject+MapForItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE133CE1FF37D4800CF728C /* NSObject+MapForItinerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1CE133C31FF37B9000CF728C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CE133C51FF37B9000CF728C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CE133C61FF37B9000CF728C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CE133CD1FF37D4700CF728C /* NSObject+MapForItinerary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MapForItinerary.h"; sourceTree = "<group>"; };
+		1CE133CE1FF37D4800CF728C /* NSObject+MapForItinerary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MapForItinerary.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				1CE133B81FF37B9000CF728C /* AppDelegate.m */,
 				1CE133BA1FF37B9000CF728C /* ViewController.h */,
 				1CE133BB1FF37B9000CF728C /* ViewController.m */,
+				1CE133CD1FF37D4700CF728C /* NSObject+MapForItinerary.h */,
+				1CE133CE1FF37D4800CF728C /* NSObject+MapForItinerary.m */,
 				1CE133BD1FF37B9000CF728C /* Main.storyboard */,
 				1CE133C01FF37B9000CF728C /* Assets.xcassets */,
 				1CE133C21FF37B9000CF728C /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CE133CF1FF37D4800CF728C /* NSObject+MapForItinerary.m in Sources */,
 				1CE133BC1FF37B9000CF728C /* ViewController.m in Sources */,
 				1CE133C71FF37B9000CF728C /* main.m in Sources */,
 				1CE133B91FF37B9000CF728C /* AppDelegate.m in Sources */,
