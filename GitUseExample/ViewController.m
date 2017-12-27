@@ -17,21 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"test");
 }
 
-
-- (void)testGit {
-    
-    NSLog(@"test");
-    NSLog(@"test");
-    NSLog(@"test");
-    NSLog(@"test");
-}
-
-- (IBAction)firstBloodEvent:(id)sender {
-    
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
